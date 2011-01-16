@@ -1,0 +1,415 @@
+#VRML V2.0 utf8
+	
+	NavigationInfo {
+		headlight TRUE
+	type ["WALK", "FLY"]
+	}
+	Viewpoint {
+		description "Viewpoint"
+	jump TRUE
+	position 50 5 50
+	}
+	Transform {
+		translation 50 0 50
+	
+	children [
+		
+	Transform {
+		translation 0 20 0
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/scene_2.jpg"]
+	}
+	
+	}
+	
+	geometry Box {
+		size 100 0.03 100
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 0 -0.03 0
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/scene_2.jpg"]
+	}
+	
+	}
+	
+	geometry Box {
+		size 100 0.03 100
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation -49.985 10 0
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/scene_2.jpg"]
+	}
+	
+	}
+	
+	geometry Box {
+		size 0.03 20 100
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 49.985 10 0
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/scene_2.jpg"]
+	}
+	
+	}
+	
+	geometry Box {
+		size 0.03 20 100
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 0 10 -49.985
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/scene_2.jpg"]
+	}
+	
+	}
+	
+	geometry Box {
+		size 100 20 0.03
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 0 10 49.985
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/scene_2.jpg"]
+	}
+	
+	}
+	
+	geometry Box {
+		size 100 20 0.03
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 0 20 0
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/scene_2.jpg"]
+	}
+	
+	}
+	
+	
+	}
+	]
+	}
+	
+	]
+	}
+	
+	Transform {
+		translation 2 2.03 79
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/sphere.jpg"]
+	}
+	
+	}
+	
+	geometry Sphere {
+		radius 2
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 83 2.03 68
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/sphere.jpg"]
+	}
+	
+	}
+	
+	geometry Sphere {
+		radius 2
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 6 2.03 68
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/sphere.jpg"]
+	}
+	
+	}
+	
+	geometry Sphere {
+		radius 2
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 59 1.03 76
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/box.jpg"]
+	}
+	
+	}
+	
+	geometry Box {
+		size 1 2 3
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 0 0 0
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/box.jpg"]
+	}
+	
+	}
+	
+	geometry Box {
+		size 2 1 2
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 86 1.53 83
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/box.jpg"]
+	}
+	
+	}
+	
+	geometry Box {
+		size 3 3 1
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 79 0.53 50
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/cone.jpg"]
+	}
+	
+	}
+	
+	geometry Cone {
+		height 1
+	bottomRadius 1
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 21 1.03 40
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/cone.jpg"]
+	}
+	
+	}
+	
+	geometry Cone {
+		height 2
+	bottomRadius 2
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 51 1.53 85
+	rotation 0 0 0 0
+	
+	children [
+		
+	Shape {
+		appearance Appearance {
+		texture ImageTexture {
+		url ["img/cone.jpg"]
+	}
+	
+	}
+	
+	geometry Cone {
+		height 3
+	bottomRadius 3
+	}
+	
+	
+	}
+	]
+	}
+	
+	Transform {
+		translation 23 0.53 13
+	rotation 0 0 0 0
+	
+	children [
+		
+	Anchor {
+		url ["scene_0.wrl"]
+	
+	children [
+		Shape {
+		appearance Appearance {
+		material Material {
+		diffuseColor 1 0 0
+	}
+	
+	}
+	
+	geometry Sphere {
+		radius 1
+	}
+	
+	
+	}
+	]
+	}
+	]
+	}
+	
